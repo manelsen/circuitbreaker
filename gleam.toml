@@ -1,0 +1,14 @@
+name = "circuit_breaker"
+version = "1.0.0"
+description = "Circuit breaker for Gleam — closed, open, half-open states with OTP actor support"
+licences = ["Apache-2.0"]
+repository = { type = "github", user = "manelsen", repo = "circuitbreaker" }
+links = [{ title = "Repository", href = "https://github.com/manelsen/circuitbreaker" }]
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+gleam_otp = ">= 1.0.0 and < 2.0.0"
+gleam_erlang = ">= 1.0.0 and < 2.0.0"
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
