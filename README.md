@@ -1,5 +1,7 @@
 # circuit_breaker
 
+[![test](https://github.com/manelsen/circuitbreaker/actions/workflows/test.yml/badge.svg)](https://github.com/manelsen/circuitbreaker/actions/workflows/test.yml)
+
 Circuit breaker for Gleam — closed, open, half-open states with OTP actor support.
 
 ## Installation
